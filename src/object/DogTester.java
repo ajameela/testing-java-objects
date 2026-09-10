@@ -2,6 +2,7 @@
  * Jameela Ahmed
  * 9.8.26
  * Dog Object Class
+ * With constructors, setters and getters, and toString()
  */
 
 package object;
