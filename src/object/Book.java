@@ -5,6 +5,12 @@ public class Book {
 	private String name;
 	private String author;
 	private int year;
+	
+	public Book() {
+		this.name = "City of Bones";
+		this.author = "Cassandra Clare";
+		this.year = 2007;
+	}
 
 	public Book(String name, String author, int year) {
 		this.name = name;
