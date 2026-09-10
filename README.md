@@ -13,6 +13,6 @@ a.	Private fields are preferred more because it is a common safe practice regard
 
 Reflection.txt Section (pushed through Github from eclipse but just in case)
 1.	Why do we use @Override with toString()?
-a.	We use @Override to turn the default toString() method within Java into something different that does something different like in this case print out the class details to the programmer/user. 
+a.	We use @Override to turn the default toString() method within Java into something different that does something different like in this case print out the object details to the programmer/user. 
 2.	What changed after you added the no-argument constructor? What changed after adding the parameterized constructor
 a.	The no-argument constructor was like the default of any object that was created, while the parameterized constructor were ones that could be input from the user. 
