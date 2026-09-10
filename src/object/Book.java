@@ -6,9 +6,35 @@ public class Book {
 	private String author;
 	private int year;
 
-	public Book (String name; String author; int year;) {
+	public Book(String name, String author, int year) {
 		this.name = name;
 		this.author = author;
 		this.year = year;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public void setYear(int year) {
+		if (year >= 0)
+			this.year = year;
+	}
+
+	// Getters
+	public String getName() {
+		return name;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public int getYear() {
+		return year;
 	}
 }
